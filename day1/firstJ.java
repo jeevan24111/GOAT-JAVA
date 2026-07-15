@@ -40,5 +40,33 @@ public class firstJ{
 
         //int badInt   = (int)  true; // Compiler error: incompatible types
 
+        //non numeric conversions
+        char c2='$';
+        char c1=(char)65;
+        int i1=(int)c2;
+        short s2=(int) 'B';
+        byte b2=(int) 'G';
+
+
+        System.out.println(c1);
+        System.out.println(i1);
+        System.out.println(s2);
+        System.out.println(b2);
+        char c3=(char) 8231;
+        System.out.println(c3);
+
+        byte byte2   = (byte)  '‽'; // 61 (truncated code-point into the ASCII range)
+        System.out.println(byte2);
+
+        //Section 2.4: Object casting
+
+        Float var=new Float(42.02f);
+        Number n=var;
+        Float var2=(Float)n;
+        Double D1=(Double)n;
+
+        System.out.println(n);
+        System.out.println(var2);
+        System.out.println(D1);
     }
 }
