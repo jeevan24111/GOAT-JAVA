@@ -60,7 +60,7 @@ public class firstJ{
 
         //Section 2.4: Object casting
 
-        Float var=new Float(42.02f);
+        // Float var=new Float(42.02f);
         Number n=var;
         Float var2=(Float)n;
         Double D1=(Double)n;
