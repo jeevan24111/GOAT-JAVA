@@ -1,2 +1,5 @@
 *.class
 *.pdf
+*.txt
+*.log
+*.temp

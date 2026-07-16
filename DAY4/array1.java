@@ -21,7 +21,10 @@ public class array1 {
         System.out.println( arr[2]);
         System.out.println( arr[3]);
 
-
+        //to print array elements best method is looping over the array coz all are of same type;
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }git
     }
     
 }
