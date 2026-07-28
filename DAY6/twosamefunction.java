@@ -1,3 +1,6 @@
+
+package DAY6;
+
 public class twosamefunction {
     public static void main(String[] args) {
         /* two function having same name but diff in return type */

@@ -1,4 +1,5 @@
-public class typecastedReturnType {
+package DAY6;
+public class typecastedReturnType{
     public static void main(String[] args) {
         int x=20,y=20;
 

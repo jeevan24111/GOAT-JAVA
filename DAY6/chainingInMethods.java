@@ -1,3 +1,4 @@
+package DAY6;
 public class chainingInMethods {
     public static void main(String[] args) {
         /*chaining of functions in JAVA */

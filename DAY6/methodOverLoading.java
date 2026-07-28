@@ -1,3 +1,5 @@
+package DAY6;
+
 public class methodOverLoading {
     public static void main(String[] args) {
          //same function but diff parameters

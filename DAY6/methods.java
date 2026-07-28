@@ -1,3 +1,4 @@
+package DAY6;
 public class methods {
     public static void main(String[] args){
 
