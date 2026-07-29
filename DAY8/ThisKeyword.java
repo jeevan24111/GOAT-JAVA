@@ -1,4 +1,4 @@
-public class ThisKeyword {
+public class ThisKeyword{
     public static void main(String[] args) {
         /*this keyword is used to refer to the current object in the class
         it it not used value of gets assigned itself again  & again */
