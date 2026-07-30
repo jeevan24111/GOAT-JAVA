@@ -10,7 +10,7 @@ public class StaticKeyWord{
             it is possible by static keyword which make the instance value belong to class not to objects
         */
 
-            Student s1=new Student("RAM",21,"MALE");
+            Student1 s1=new Student1("RAM",21,"MALE");
             System.out.println(s1.name);
             System.out.println(s1.age);
             System.out.println(s1.gender);
@@ -20,22 +20,22 @@ public class StaticKeyWord{
 
 
             //accessing as static value
-            System.out.println("College name is "+Student.College);
-            System.out.println("College Location is "+Student.location);
+            System.out.println("College name is "+Student1.College);
+            System.out.println("College Location is "+Student1.location);
             //accessing static method
-            Student.holiday();
+            Student1.holiday();
             s1.holiday();
 
             //in short static means same for all object ,no need to create everytime
     }
 }
-class Student{
+class Student1{
     String name;
     int age;
     String gender;
     static String College="MIT";
     static String location="USA";
-    Student(String name,int age,String gender){
+    Student1(String name,int age,String gender){
         this.name=name;
         this.age=age;
         this.gender=gender;
