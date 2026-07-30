@@ -1,4 +1,4 @@
-package DAY6;
+package DAY06;
 public class methods {
     public static void main(String[] args){
 

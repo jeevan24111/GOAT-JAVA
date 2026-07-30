@@ -1,5 +1,5 @@
 
-package DAY6;
+package DAY06;
 
 public class twosamefunction {
     public static void main(String[] args) {
