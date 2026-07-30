@@ -22,6 +22,15 @@ public class staticRules {
             s1.holiday();
             s1.fun();
 
+            /* memory allocation for static variables in method ared
+                for non static it is in heap
+            */
+
+             /*
+                static can be applied on variables,methods
+                cannot be applied on class,parameter
+             */
+
     }
     
 }
