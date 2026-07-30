@@ -43,7 +43,12 @@ public class finalkeyword {
         System.out.println(c1.pi);
         System.out.println(c2.pi);
         System.out.println(c3.pi);
+        c1.age=20;
+        c1.iamFinal(c1.age);
+        c1.iamFinal(c1.age,c1.num);
+
     }
+    //final can be applied on class,parameter,methods and variables
     
 }
 
@@ -54,8 +59,10 @@ class college{
     final  String code;
     final int sinceYear;
     final String type;
-    static final String world="earth";  //you can also variables as static and final which means which is common for all and cannot be changed
-    static final float pi=3.14f;  // pi value is same for all and cannot be changed
+    static final String world;
+    int age=20;
+    int num=10; //you can also variables as static and final which means which is common for all and cannot be changed
+    static final float pi; // pi value is same for all and cannot be changed
     //all college details are final coz they do not change
 
 
@@ -68,4 +75,32 @@ class college{
 
     }
 
+    static{
+        world="earth";
+        pi=3.14f;
+    }
+
+   //iamFinal method cannot be override by implementing class
+    final void iamFinal(final int age ){ //parameter cannot be changed
+        System.out.println(age);
+
+    }
+    final void iamFinal(final int age,int num ){ //parameter cannot be changed
+        // age+=10;
+        System.out.println(age);
+        System.out.println(num);
+
+    }
+
 }
+
+//dept class cannot be inherited
+final class dept{
+    int age1;
+}
+
+
+// The type section cannot subclass the final class dept
+// class section extends dept{
+    
+// }
