@@ -20,7 +20,13 @@ public class StaticKeyWord{
 
 
             //accessing as static value
-            System.out.println(Student.College);
+            System.out.println("College name is "+Student.College);
+            System.out.println("College Location is "+Student.location);
+            //accessing static method
+            Student.holiday();
+            s1.holiday();
+
+            //in short static means same for all object ,no need to create everytime
     }
 }
 class Student{
@@ -28,6 +34,7 @@ class Student{
     int age;
     String gender;
     static String College="MIT";
+    static String location="USA";
     Student(String name,int age,String gender){
         this.name=name;
         this.age=age;
@@ -37,5 +44,10 @@ class Student{
 
         //her college is static ,so it has to be accessed in static way
 
+    }
+    //we can create static methods in java
+
+    static void holiday(){
+        System.out.println("today is holiday\n");
     }
 }
