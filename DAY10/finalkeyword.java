@@ -72,6 +72,7 @@ class college{
         this.sinceYear=sinceYear;
         this.code=code;
         this.location=location;
+        //line added to merge
 
     }
 
