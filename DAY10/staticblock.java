@@ -5,20 +5,20 @@ public class staticblock {
          static block are loaded first
         */
 
-         System.out.println(Student.College);
-         System.out.println(Student.location);
+         System.out.println(Student123.College);
+         System.out.println(Student123.location);
     }
 
 
 }
 
-class Student{
+class Student123{
     String name;
     int age;
     String gender;
     static String College;
     static String location;
-    Student(String name,int age,String gender){
+    Student123(String name,int age,String gender){
         this.name=name;
         this.age=age;
         this.gender=gender;

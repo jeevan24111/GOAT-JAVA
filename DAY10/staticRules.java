@@ -15,7 +15,7 @@ public class staticRules {
             
             4.one static method can call one static method only
         */
-          Student s1=new Student("RAM",21,"MALE");
+          Student12 s1=new Student12("RAM",21,"MALE");
             System.out.println(s1.name);
             System.out.println(s1.age);
             System.out.println(s1.gender);
@@ -28,20 +28,20 @@ public class staticRules {
 
              /*
                 static can be applied on variables,methods
-                cannot be applied on class,parameter
+                cannot be applied on class,
              */
 
     }
     
 }
-class Student{
+class Student12{
     String name;
     int age;
     String gender;
     static String College="MIT";
     static String location="USA";
     static int code=24;
-    Student(String name,int age,String gender){
+    Student12(String name,int age,String gender){
         this.name=name;
         this.age=age;
         this.gender=gender;
