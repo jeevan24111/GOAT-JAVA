@@ -1,4 +1,4 @@
-// package DAY11.Inheritance;
+package DAY11.Inheritance;
 
 public class simpleInheritance {
     public static void main(String[] args) {

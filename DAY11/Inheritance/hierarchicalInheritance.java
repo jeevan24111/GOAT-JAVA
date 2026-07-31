@@ -1,4 +1,4 @@
-// package DAY11.Inheritance;
+package DAY11.Inheritance;
 
 public class hierarchicalInheritance {
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class hierarchicalInheritance {
                 System.out.println(c1.name);
                      c1.parent1();
                 System.out.println(c2.name);
-                c2.parent1();
+                // c2.parent1();
         
     }
     

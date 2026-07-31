@@ -1,4 +1,4 @@
-// package DAY11.Inheritance;
+package DAY11.Inheritance;
 
 public class multileveInheritance {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class multileveInheritance {
          
         d1.details1();  //dept have college details in it
         d1.details();
-        
+
         c1.details();  //college have only its values coz it is the parent
 
         s1.details();   //section have both college and dept properties and behaviour
