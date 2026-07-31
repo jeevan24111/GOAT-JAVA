@@ -1,4 +1,4 @@
-// package DAY11.Encapsulation;
+package DAY11.Encapsulation;
 
 public class PrivateModifier{
     public static void main(String[] args) {
