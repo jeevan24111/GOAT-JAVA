@@ -11,6 +11,11 @@ public class InterfaceClass {
         b2.gear();
         b2.accelerator();
         b2.breakk();
+        // bike b3=new bike(); Cannot instantiate the type bike
+        // b3.accelerator();   ->you can't do this coz it is a interface and it is possible to create objects to it.it is 100% contract not object
+        // b3.breakk();
+        // b3.gear();
+        
     }
 }
 
