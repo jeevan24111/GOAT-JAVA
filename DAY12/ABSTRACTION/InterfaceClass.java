@@ -7,6 +7,10 @@ public class InterfaceClass {
         b1.gear();
         b1.accelerator();
         b1.breakk();
+        bike b2=new platinum();
+        b2.gear();
+        b2.accelerator();
+        b2.breakk();
     }
 }
 
@@ -24,6 +28,19 @@ class splendor implements bike{
     }
    public   void accelerator(){
          System.out.println(" i am accelerating at 120 speed");
+    }
+    public void breakk(){
+             System.out.println(" i am at high speed wait");
+    }
+}
+class platinum implements bike{
+
+    //this class needs to implement all methods
+   public  void gear(){  //  if you don't give public it will give visibilty error to bike
+        System.out.println(" i have 4 gear and approach back to increase gear");
+    }
+   public   void accelerator(){
+         System.out.println(" i am accelerating at 150 speed");
     }
     public void breakk(){
              System.out.println(" i am at high speed wait");
