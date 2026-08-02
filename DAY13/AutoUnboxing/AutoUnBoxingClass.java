@@ -69,6 +69,14 @@ public class AutoUnBoxingClass {
         
 
         /* when we print AutoBoxed values they automatically autoUnBoxed */
+
+
+        //pointer exception
+        Integer x1=null;
+        // int y=x1;  Null pointer access: This expression of type Integer is null but requires auto-unboxing
+        /* keep in mind don't do autoboxing or autounboxing of this type 
+        coz integer can't store null
+        */
         
     
     }
