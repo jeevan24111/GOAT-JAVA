@@ -18,7 +18,7 @@ public class AutoUnBoxingClass {
         /*      internal conversion
 
                   int sum=x.intValue(); 
-                  
+
         */
 
         //objects
@@ -68,7 +68,7 @@ public class AutoUnBoxingClass {
         System.out.println(phone);
         
 
-
+        /* when we print AutoBoxed values they automatically autoUnBoxed */
         
     
     }
