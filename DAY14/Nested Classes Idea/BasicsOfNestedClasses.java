@@ -9,6 +9,12 @@ public class BasicsOfNestedClasses {
 
         There are two main categories: static nested classes and non-static nested classes (also known as inner classes). Inner classes are further divided into three types: member, local, and anonymous
 
+      main use of nestedc classes
+
+      ->logical grouping ->if any class only used with outer class,group them together
+      ->Encapsulation->nested class can access outer class private method and nested class can be private and they are      invisible from outside world 
+      ->Readability and Maintainability->related code are grouped together and easy to understand 
+
 
         static vs non static main diff->
                property                                                   
