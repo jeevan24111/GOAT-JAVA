@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class InputInJava {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         
         /*   
             in java we have INputSTream to take input
@@ -139,6 +139,7 @@ public class InputInJava {
                 BufferedReader br=new BufferedReader(irs);
                 String s=br.readLine();
                 System.out.println(s);
+                br.close();
 
                 // steps
                 /*
@@ -160,6 +161,9 @@ public class InputInJava {
                   and have to make object of it make take input from users
                   it provide many method to take input
 
+                     
+                Scanner sc=new Scanner(System.in); for console i/p
+                file i/p=new FIle(input.txt)->for file input
                   it simplified input
                   can take multiple types of input
 
@@ -169,8 +173,26 @@ public class InputInJava {
                   4 token ->are gathered by spaces b/w the words
 
                  */
-                Scanner sc=new Scanner(System.in);
+                Scanner sc=new Scanner(System.in);  // whatever we do ,at last we have to work on System.in only->input stream
                 int x=sc.nextInt();
+
+                System.out.println("ENter String");
+                String name=sc.nextLine();
+                System.out.println("ENter  a BYte");
+                byte c=sc.nextByte();
+                System.out.println("ENter float");
+                float f=sc.nextFloat();
+                System.out.println("Enter double");
+                double d=sc.nextDouble();
+                System.out.println("ENter Long");
+                long l=sc.nextLong();
+                System.out.println("Integer is"+x);
+                System.out.println("float is"+ f);
+                System.out.println("String is "+name);
+                System.out.println("BYTE IS "+c);
+                System.out.println("DOUBLE IS"+d);
+                System.out.println("LONG IS "+l);
+                sc.close();
 
                 /*
                 
