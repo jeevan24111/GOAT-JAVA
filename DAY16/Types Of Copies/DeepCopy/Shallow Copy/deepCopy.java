@@ -24,7 +24,7 @@ public class deepCopy {
       System.out.println(s2.getClg().name);
      System.out.println(s2.getClg().Location);
 
-     //new heaps values are changed not the original values are chnaged
+     //new heaps values are changed not the original values are changed
 
     }
     
