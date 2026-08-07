@@ -1,4 +1,4 @@
-// package DAY18.toStrings;
+package DAY18.toStrings;
 
 public class toStringJava {
     public static void main(String[] args) {
