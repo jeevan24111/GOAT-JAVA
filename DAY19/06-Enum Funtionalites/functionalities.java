@@ -11,6 +11,63 @@ public class functionalities {
             3.name()
             4.odinal()   3 and 4 only comes from ENUMS Class not 4 all methods
         */
+
+            /*
+              1.value() methods return an array of enums
+               -so that we can iterate over an enum
+            */
+
+               DIRECTION2[]  d=DIRECTION2.values();  //return an array
+
+               for(DIRECTION2 di : d){
+                System.out.println(di.name());
+                /*
+
+                gives all enum values 
+
+                NORTH
+                SOUTH
+                EAST
+                WEST
+                */
+               }
+
+               /*
+
+                2.valueOf(String s) takes a string and convert it into Enum value
+                convert string into an enum constant
+
+               */
+            //   DIRECTION2 d2=DIRECTION2.valueOf("MONDAY");
+            //   System.out.println(d2);
+              /*MONDAY as enum constant */
+
+              /*  3.name () method ->name of the enum constant
+                 both name() and toString() are same but toString can be overriden but
+                 name() cannot be overidden
+              */
+             System.out.println(DIRECTION2.NORTH.name());
+             //NORTH
+             /*4.Odinal
+                 odinal is index of enum(0,1,2,3) like that    
+             */
+
+                 System.out.println(DIRECTION2.NORTH.ordinal());
+                 System.out.println(DIRECTION2.SOUTH.ordinal());
+                 System.out.println(DIRECTION2.EAST.ordinal());
+                 System.out.println(DIRECTION2.WEST.ordinal());
+                 /*
+                            0
+                            1
+                            2
+                            3
+                 */
     }
     
 }
+enum DIRECTION2{
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST
+};
