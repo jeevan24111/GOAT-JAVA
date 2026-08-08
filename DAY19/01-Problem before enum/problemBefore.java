@@ -9,6 +9,14 @@ public class problemBefore {
             let see thorugh an eg
         */
              int status=paymentStatus.SUCCESS;
+                System.out.println(status);// 1
+             status=100;
+            // type safety>i can easily chnage the values of success 
+         
+            System.out.println(status); //100 
+
+            //but i dont want them to be get changed
+
              int status2=paymentStatus.PENDING;
              int status3=paymentStatus.FAILED;
              System.out.println(status);
@@ -21,11 +29,11 @@ public class problemBefore {
             //  String status2=paymentStatus.FAILED;
             //  String status3=paymentStatus.PENDING;
 
-            //  if("success"==paymentStatus.SUCCESS){
+            //  if(status==paymentStatus.SUCCESS){
             //     System.out.println("true");
             //  }
             //2.poor readability
-             //if my varibales not in small case then it is not goint ot check it ok
+             //if if schecky if(status==2) but how do i know what status and with what i am comparing
 
              /* here i have some problme in this integer and string to make constants
 
@@ -37,17 +45,18 @@ public class problemBefore {
                     //giving true ,but both are diff class and have diff menaing
                     //no logical grouping
              
-            //  1.typeSafety->if i use int , all are integer i can give the same values to them
-            //      type safety is gone i can assign  same values to other also
+            //  1.typeSafety->if i use int , all are integer i can change the values of assigned  values to them
+            //      type safety is gone i can assign new  value to the existing one
 
-            // 2.Poor readability ->if(status==2) what's status it has to check multiple time
+            // 2.Poor readability ->if if check if(status==2) but how do i know what status and with what i am comparing
+            //i check its class and assigned value then  i willl know what it is 
 
             // 3.no grouping->giving true ,but both are diff class and have diff menaing
                     // no logical grouping
 
-            /* if i use string there will be lot of complications and also time taking process
+            /*4. if i use string there will be lot of complications and also time taking process
 
-            ->allowing multiple duplicates for variables  in a class
+            ->5.allowing multiple duplicates for variables  in a class
             ->problem in storing  constants using integer and string  ,then what to use to store constants in java
 
 
