@@ -11,6 +11,10 @@ class AfterInterface {
 
 
         */
+       C c=new C();
+       c.fun();
+       first  f1=new C();
+       f1.fun();
     
     }
 }
