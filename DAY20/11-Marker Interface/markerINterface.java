@@ -11,6 +11,23 @@ public class markerINterface {
           like clicking on it ,i need or not
 
           now these are replace by "ANNOTATION IN JAVa"
+        object class->clone();
+
+        B implements clonebale allow B class to get clonning feature
+        i have to say,yes i want 
+
         */
+    }
+}
+
+interface  A{
+    default void fun(){
+        System.out.println("hello");
+    }
+}
+
+class B implements Cloneable{
+    public void fun(){
+        System.out.println("hello");
     }
 }
