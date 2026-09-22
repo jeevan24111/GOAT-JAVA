@@ -1,4 +1,4 @@
-package DAY06;
+// package DAY06;
 
 public class methodOverLoading {
     public static void main(String[] args) {
