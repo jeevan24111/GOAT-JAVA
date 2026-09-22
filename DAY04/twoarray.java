@@ -12,21 +12,21 @@ public class twoarray{
 
         
 
-        // //int[2][3]=2->rows,3->columns
+        //int[2][3]=2->rows,3->columns
 
-        // //2.assigning values
-        // //first row and and 3 col
+        //2.assigning values
+        //first row and and 3 col
         // arrTwod[0][0]=23;
         // arrTwod[0][1]=25;
         // arTwo2d[0][2]=26;
 
 
-        // //2nd row and all 3 col
+        //2nd row and all 3 col
         // arrTwod[1][0]=45;
         // arrTwod[1][1]=44;
         // arrTwod[1][2]=46;
 
-        // //printing all values of 2d array
+        //printing all values of 2d array
         // for(int i=0;i<5;i++){
         //     for(int j=0;j<5;j++){
         //         System.out.println(arrTwod[i][j]);
