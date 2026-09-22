@@ -18,7 +18,7 @@ public class Strings{
         //stack is will store reference of name[5] array
             //a reference will have 4 bytes
 
-        //acessing elements is same as accessing elements in array
+        //accessing elements is same as accessing elements in array
 
         for(int i=0;i<5;i++){
             System.out.println(name[i]);
