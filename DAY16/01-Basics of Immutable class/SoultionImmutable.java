@@ -5,7 +5,7 @@ public class SoultionImmutable {
         /* lets see some rules how we can make our class immutable
          1.Making ur class final->so that no can inherit and modify it
          2.Making instance private and final 
-         3.removing all the setter in clas
+         3.removing all the setter in class
         */
        SchoolStudent s1=new SchoolStudent(10,"ADRASH BACCHA", 12, 15);
        /* i made the class final ,removes setters and values are private and final and initialized once through constructor */
@@ -34,10 +34,10 @@ public class SoultionImmutable {
         //  3.removing all the setters in class
 final class SchoolStudent{
 
-   final private int Cls;
+  final private int Cls;
   final private String Name;
- final private  int id;
- final static private  int age=20;
+  final private  int id;
+  final static private  int age=20;
 
   SchoolStudent(int Cls,String name,int id,int age){
     this.Cls=Cls;
