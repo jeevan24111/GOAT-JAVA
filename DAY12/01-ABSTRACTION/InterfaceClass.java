@@ -28,7 +28,7 @@ interface bike{
 class splendor implements bike{
 
     //this class needs to implement all methods
-   public  void gear(){  //  if you don't give public it will give visibilty error to bike
+   public  void gear(){  //  if you don't give public it will give visibility error to bike
         System.out.println(" i have 4 gear and approach back to increase gear");
     }
    public   void accelerator(){
@@ -41,7 +41,7 @@ class splendor implements bike{
 class platinum implements bike{
 
     //this class needs to implement all methods
-   public  void gear(){  //  if you don't give public it will give visibilty error to bike
+   public  void gear(){  //  if you don't give public it will give visibility error to bike
         System.out.println(" i have 4 gear and approach back to increase gear");
     }
    public   void accelerator(){
