@@ -4,7 +4,7 @@ public class simpleInheritance {
     public static void main(String[] args) {
         /* there are 4 types of inheritance in java
           1->simple inheritance =A->B
-          2->multilevel inheritance=A->B->C
+          2->multiple inheritance=A->B->C
           3->Hierarchical inheritance
           4->multilevel inheritance
           
