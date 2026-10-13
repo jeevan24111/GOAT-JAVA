@@ -10,6 +10,10 @@ public class javagenerics {
         System.out.println(a2.getvalue());
         System.out.println(a3.getvalue());
 
+        aluesIN<Integer> a5=new aluesIN(20);
+       fun(20);
+       fun("hello");
+
         
 /* 
         23
@@ -17,9 +21,13 @@ public class javagenerics {
         23.34
         */
 
-           System.out.println(a1.getvalue()+5);
+        System.out.println(a1.getvalue()+5);
         System.out.println(a2.getvalue()+5);
         System.out.println(a3.getvalue()+5);
+    }
+
+    public static  <T> void  fun( T age){
+            System.out.println("your age is "+age);
     }
 }
 
