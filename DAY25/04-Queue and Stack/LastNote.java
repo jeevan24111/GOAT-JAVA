@@ -12,6 +12,6 @@ public class LastNote {
 
          THESE ARE LESSyly used in java coz we have better alternatives like arrayList and linkedList
          */
-        */
+        
     }
 }

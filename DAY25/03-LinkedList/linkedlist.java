@@ -22,10 +22,5 @@ public class linkedlist {
         ll1.addAll(List.of(22,2,3,23,23,23,23,2,32,3,23,23232,12,1,21));
         System.out.println(ll1);
 
-        ll1.get(23);
-
-        ll1.remove(23);
-        System.out.println(ll1);
-
     }
 }
