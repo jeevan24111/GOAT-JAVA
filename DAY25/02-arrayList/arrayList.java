@@ -40,12 +40,12 @@ public class arrayList {
 
        li2.addAll(List.of(12,12,12,12,1,21,21,21,21,21,2,12,12,12,1,21,21,21,2,12,1));
 
-       li2.ensureCapacity(220);
+    //    li2.ensureCapacity(220);
        //gives size of array li2 of 220 size
 
-       li3.trimTosize();
+    //    li3.trimTosize();
        //if the 100 size is occupied only 20 and rest 80 size is trimed
-       
+
     
 
        
