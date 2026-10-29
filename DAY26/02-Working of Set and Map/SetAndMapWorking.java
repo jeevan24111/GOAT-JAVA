@@ -32,6 +32,28 @@ public class SetAndMapWorking {
 
          */
 
+    //*INTERNAL WOKRING OF MAP */
+    /*
+      put,get,and stored
+
+      put
+      map accepts key and value 
+      when we put a value
+      keys hash code is taken with array size and index is got
+      int that index both the key and value are stored
+
+
+      get
+      when we try to get a key 
+      its hashCode is taken and index is taken and in that index if that key matches then it is written else not given
+
+      Storing 
+
+      if 2 values got the same index then linkedList if formed and hashing is occurs and and at a index both pair are stored
+    */
+
+    
+
     
     }
     
